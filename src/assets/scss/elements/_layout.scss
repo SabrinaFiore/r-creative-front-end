@@ -1,0 +1,37 @@
+/* Layout */
+
+.layout {
+    width: 100%;
+    max-width: $s1024;
+    margin: 0 auto;
+}
+
+.l-container--big {
+    max-width: $l-container-max-width--big;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.l-container {
+    max-width: $l-container-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.l-container--small {
+    max-width: $l-container-max-width--small;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.l-container--x-small {
+    @include breakpoints(break-x-small) {
+        display: block;
+        text-align: center;
+    
+        * > {
+            margin: 0 auto;
+            padding: 0 $unit-spacing*2;
+        }
+    }
+}

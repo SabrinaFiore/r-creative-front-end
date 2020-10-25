@@ -1,0 +1,20 @@
+/* Utilities */
+@import '../src/assets/scss/utilities/reset';
+
+/* Tools */
+@import '../src/assets/scss/tools/media-queries';
+@import '../src/assets/scss/tools/media-queries-mixin';
+@import '../src/assets/scss/tools/setting-variables';
+@import '../src/assets/scss/tools/unit';
+
+/* Setting */
+@import '../src/assets/scss/settings/colors';
+@import '../src/assets/scss/settings/typography';
+
+/* Elements */
+@import '../src/assets/scss/elements/layout';
+
+/* Components */
+@import '../src/assets/scss/components/header';
+@import '../src/assets/scss/components/main-content';
+@import '../src/assets/scss/components/slide-carousel';

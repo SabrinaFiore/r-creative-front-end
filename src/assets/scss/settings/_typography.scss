@@ -1,0 +1,22 @@
+/* Typography */
+
+$typography-primary-regular: 'optima', serif;
+$typography-secondary-regular: 'Raleway', sans-serif;
+
+.h1 {
+    color: $c-dark-gray;
+    font-size: $unit-spacing*2;
+    font-family: $typography-primary-regular;
+    font-weight: bold;
+}
+
+.h2 {
+    font-size: $unit-spacing-3;
+    font-family: $typography-primary-regular;
+}
+
+.paragraph {
+    font-size: $unit-spacing;
+    font-family: $typography-secondary-regular;
+    font-weight: normal;
+}
