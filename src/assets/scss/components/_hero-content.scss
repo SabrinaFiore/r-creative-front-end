@@ -1,0 +1,21 @@
+/* Hero */
+
+.hero {
+    &--content {
+        position: absolute;
+        top: 20%;
+        padding: 0 $unit-spacing*2;
+    }
+
+    &--title {
+        color: $c-white;
+        max-width: 450px; 
+    }
+
+    &--description {
+        color: $c-white;
+        max-width: 500px;
+        line-height: $unit-spacing-3;
+        margin-top: $unit-spacing-3;
+    }
+}
